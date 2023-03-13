@@ -33,32 +33,32 @@ function PostModal({ isOpen, onClose, setCount }: any) {
   const [nameTypeError, setTypeError] = useState(false);
   const toast = useToast();
 
-  const handleNameChange = (event) => {
+  const handleNameChange = (event: any) => {
     if (event.target.value !== "" && nameError) {
       setNameError(false);
     }
     setName(event.target.value);
   };
 
-  const handleCompanyNameChange = (event) => {
+  const handleCompanyNameChange = (event: any) => {
     if (event.target.value !== "" && companyNameError) {
       setCompanyNameError(false);
     }
     setCompanyName(event.target.value);
   };
 
-  const handleLinkChange = (event) => {
+  const handleLinkChange = (event: any) => {
     if (event.target.value !== "" && linkError) {
       setLinkError(false);
     }
     setLink(event.target.value);
   };
 
-  const handlePersonalStoryChange = (event) => {
+  const handlePersonalStoryChange = (event: any) => {
     setPersonalStory(event.target.value);
   };
 
-  const handleTypeChange = (event) => {
+  const handleTypeChange = (event: any) => {
     if (event.target.value !== "" && nameTypeError) {
       setTypeError(false);
     }
