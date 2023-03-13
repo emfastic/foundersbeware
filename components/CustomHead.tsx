@@ -13,7 +13,7 @@ export default function CustomHead() {
         property="og:description"
         content="VC Chronicles allows founders to anonymously share their experiences with VCs."
       />
-      <meta property="og:image" content="" />
+      <meta property="og:image" content="/preview.png" />
     </Head>
   );
 }
