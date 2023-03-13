@@ -11,7 +11,7 @@ import {
   Flex,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import supabase from "../../lib/supabaseClient";
+import { supabase } from "../../lib/supabaseClient";
 import Header from "../../components/Header";
 import CustomHead from "../../components/CustomHead";
 

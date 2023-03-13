@@ -19,7 +19,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import isUrl from "is-url";
-import supabase from "../lib/supabaseClient";
+import { supabase } from "../lib/supabaseClient";
 
 function PostModal({ isOpen, onClose, setCount }: any) {
   const [name, setName] = useState("");
