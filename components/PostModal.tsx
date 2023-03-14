@@ -138,7 +138,7 @@ function PostModal({ isOpen, onClose, setCount }: any) {
       <Modal isOpen={isOpen} onClose={handleClose}>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Add a VC</ModalHeader>
+          <ModalHeader>Anonymously Add VC</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <VStack spacing="4">
